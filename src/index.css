@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.z-bg{
+    position: relative;
+}
+.low{
+    position: absolute;
+    z-index: -2;
+}
+.high{
+    position: absolute;
+    z-index: -1;
+    opacity: .7;
+}
+
+.mid{
+    position: absolute;
+    z-index: 1;
+}
