@@ -2,20 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-.z-bg{
+.z-bg {
     position: relative;
 }
-.low{
+
+.low {
     position: absolute;
     z-index: -2;
 }
-.high{
+
+.high {
     position: absolute;
     z-index: -1;
     opacity: .7;
 }
 
-.mid{
+.mid {
     position: absolute;
     z-index: 1;
+}
+
+.slate {
+    height: 800px;
+}
+
+.quit {
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
 }
